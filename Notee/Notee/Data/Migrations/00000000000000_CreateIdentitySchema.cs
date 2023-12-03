@@ -1,12 +1,12 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+using System;
 
 #nullable disable
 
 namespace Notee.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class CreateIdentitySchema : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -48,24 +48,6 @@ namespace Notee.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Notes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NoteText = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CreatedAt = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UpdatedAt = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ModifiedAt = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Notes", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -231,9 +213,6 @@ namespace Notee.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
-
-            migrationBuilder.DropTable(
-                name: "Notes");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

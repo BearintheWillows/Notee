@@ -4,22 +4,18 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-Notee-e84aa6b6-d26c-45ea-897e-034cc8ea3af1</UserSecretsId>
+    <UserSecretsId>aspnet-Notee-91f49f9e-1446-4003-b048-9eb900c4c181</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Notee.Client\Notee.Client.csproj" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.*-*" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.*-*" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.*-*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.*-*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.*-*" />
   </ItemGroup>
-
   <ItemGroup>
-    <Folder Include="Data\Migrations\" />
-    <Folder Include="Data\DTOs\" />
-    <Folder Include="Migrations\" />
+	<PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.*-* " />
   </ItemGroup>
-
 </Project>

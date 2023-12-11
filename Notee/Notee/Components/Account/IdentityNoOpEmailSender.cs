@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using Notee.Data;
+using Notee.Shared.Entities;
 
 namespace Notee.Components.Account
 {

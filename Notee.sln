@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notee", "Notee\Notee\Notee.csproj", "{9A67967F-126A-4F49-8DD5-9030E080DD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notee", "Notee\Notee\Notee.csproj", "{9A67967F-126A-4F49-8DD5-9030E080DD50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notee.Client", "Notee\Notee.Client\Notee.Client.csproj", "{77FC5CCB-D519-4ECA-9D2D-6B6649E5A3FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notee.Client", "Notee\Notee.Client\Notee.Client.csproj", "{77FC5CCB-D519-4ECA-9D2D-6B6649E5A3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notee.Shared", "Notee.Shared\Notee.Shared.csproj", "{4CD44E2B-7DFC-4B74-90D2-9BDFB44D9A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{77FC5CCB-D519-4ECA-9D2D-6B6649E5A3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77FC5CCB-D519-4ECA-9D2D-6B6649E5A3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77FC5CCB-D519-4ECA-9D2D-6B6649E5A3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD44E2B-7DFC-4B74-90D2-9BDFB44D9A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD44E2B-7DFC-4B74-90D2-9BDFB44D9A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD44E2B-7DFC-4B74-90D2-9BDFB44D9A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD44E2B-7DFC-4B74-90D2-9BDFB44D9A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

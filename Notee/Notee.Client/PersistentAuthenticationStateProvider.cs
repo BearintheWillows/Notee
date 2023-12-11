@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;
+using Notee.Shared.Entities;
 using System.Security.Claims;
 
 namespace Notee.Client

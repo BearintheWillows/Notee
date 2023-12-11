@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Identity;
-using Notee.Data;
+using Notee.Shared.Entities;
 
 namespace Notee.Components.Account
 {

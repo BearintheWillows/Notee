@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Notee.Entity;
 using Notee.Interfaces;
+using Notee.Shared.Entities;
 
 namespace Notee.Data
 {
@@ -13,6 +13,8 @@ namespace Notee.Data
             ChangeTracker.Tracked += UpdateTimestamps;
             ChangeTracker.StateChanged += UpdateTimestamps;
         }
+
+
 
         public DbSet<Note> Notes { get; set; }
 

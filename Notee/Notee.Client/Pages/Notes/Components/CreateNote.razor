@@ -1,0 +1,21 @@
+﻿@using Notee.Services
+@using Notee.Shared.Entities.DTO
+
+@inject INoteService ClientNoteService
+
+<h3>CreateNote</h3>
+
+<FluentTextField @bind-Value=note.Title Label="Title"></FluentTextField>
+<FluentTextField @bind-Value=note.Body Label="Body"></FluentTextField>
+<FluentButton @OnClick="AddNote">Add Note</FluentButton>
+
+
+@code {
+    public NoteToCreateDTO note;
+
+    public void AddNote()
+    {
+        ClientNoteService.CreateAsync(note);
+    }
+
+}

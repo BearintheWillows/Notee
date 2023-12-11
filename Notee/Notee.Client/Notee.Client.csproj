@@ -14,4 +14,8 @@
 	<PackageReference Include="Microsoft.FluentUI.AspNetCore.Components" Version="4.*-* " />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Notee.Shared\Notee.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

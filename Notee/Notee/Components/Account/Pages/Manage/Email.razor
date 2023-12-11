@@ -1,11 +1,10 @@
 ﻿@page "/Account/Manage/Email"
-
-@using System.ComponentModel.DataAnnotations
-@using System.Text
-@using System.Text.Encodings.Web
 @using Microsoft.AspNetCore.Identity
 @using Microsoft.AspNetCore.WebUtilities
-@using Notee.Data
+@using Notee.Shared.Entities
+@using System.Text.Encodings.Web
+@using System.Text
+@using System.ComponentModel.DataAnnotations
 
 @inject UserManager<ApplicationUser> UserManager
 @inject IEmailSender<ApplicationUser> EmailSender

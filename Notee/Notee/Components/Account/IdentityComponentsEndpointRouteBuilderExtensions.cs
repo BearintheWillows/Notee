@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 using Notee.Components.Account.Pages;
 using Notee.Components.Account.Pages.Manage;
-using Notee.Data;
+using Notee.Shared.Entities;
 using System.Security.Claims;
 using System.Text.Json;
 

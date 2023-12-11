@@ -1,11 +1,12 @@
 ﻿@page "/Account/Manage/EnableAuthenticator"
-
+@using Microsoft.AspNetCore.Identity
+@using Notee.Shared.Entities
+@using System.Text.Encodings.Web
+@using System.Text
 @using System.ComponentModel.DataAnnotations
 @using System.Globalization
-@using System.Text
-@using System.Text.Encodings.Web
-@using Microsoft.AspNetCore.Identity
-@using Notee.Data
+
+
 
 @inject UserManager<ApplicationUser> UserManager
 @inject IdentityUserAccessor UserAccessor
